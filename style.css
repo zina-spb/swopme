@@ -1,0 +1,170 @@
+* {
+  padding: 0 margin:0
+}
+
+body {
+  background-color: rgb(247, 204, 255);
+  margin: 0;
+  padding: 0;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.header {
+  height: 100px;
+  width: 100%;
+  background-color: white;
+  margin-top: 0;
+  border-radius: 0 0 30px 30px;
+  padding-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.subscribe {
+  padding-right: 30px;
+}
+
+.logo1 {
+  height: 60px;
+  width: auto;
+  display: block;
+  padding-left: 30px;
+}
+
+.logo2 {
+  height: 45px;
+  width: auto;
+  display: block;
+  padding-left: 10px;
+}
+
+.logo3 {
+  width: auto;
+  display: block;
+  padding-left: 30px;
+}
+
+.logo {
+  display: flex;
+  padding-top: 10px;
+}
+
+/* menu ===============*/
+
+.menu {}
+
+.menu ul {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-around;
+}
+
+.menu li {
+  display: block;
+  padding-right: 20px;
+  font-family: 'Varela Round', sans-serif;
+  font-size: 18px;
+}
+
+.menu a {
+  text-decoration: none;
+  color: black;
+  text-transform: uppercase;
+}
+
+.info {
+  width: 100%;
+  height: auto;
+  padding-bottom: 20px;
+}
+
+/* button Social ===============*/
+
+.social {
+  display: flex
+}
+
+.but {
+  height: 70px;
+  width: 200px;
+  border-radius: 30px 30px 0 0;
+  display: flex;
+  justify-content: center;
+}
+
+.facebook {
+  background-color: #2554a3;
+  position: relative;
+  z-index: 10;
+  box-shadow: 5px 0 0 rgba(0, 0, 0, 0.2);
+  display: flex;
+}
+
+.instagram {
+  background-color: #ff71be;
+  position: relative;
+  left: -40px;
+  z-index: 9;
+  box-shadow: 5px 0 0 rgba(0, 0, 0, 0.2);
+}
+
+.google {
+  background-color: #fe4a35;
+  position: relative;
+  left: -80px;
+  z-index: 8;
+  box-shadow: 5px 0 0 rgba(0, 0, 0, 0.2);
+}
+
+.twitter {
+  background-color: #00adf4;
+  position: relative;
+  left: -120px;
+  z-index: 7;
+  box-shadow: 5px 0 0 rgba(0, 0, 0, 0.2);
+}
+
+.youtube {
+  background-color: #fe4528;
+  position: relative;
+  left: -160px;
+  z-index: 6;
+  box-shadow: 5px 0 0 rgba(0, 0, 0, 0.2);
+}
+
+.mail {
+  background-color: #00c697;
+  position: relative;
+  z-index: 5;
+  left: -200px;
+  width: 350px;
+  box-shadow: 5px 0 0 rgba(0, 0, 0, 0.2);
+  display: flex;
+  align-items: center;
+}
+
+.mail p {
+  font-family: 'Varela Round', sans-serif;
+  color: white;
+}
+
+.indie {
+  background-color: #ff0c7b;
+  position: relative;
+  z-index: 4;
+  left: -240px;
+}
+
+.add {
+  background-color: #ff8044;
+  position: relative;
+  z-index: 4;
+}
+
+.icon-soc {}
