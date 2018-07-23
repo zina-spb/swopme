@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="style.css">
-  <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=NTR" rel="stylesheet">
   <title>Document</title>
 </head>
 
@@ -14,27 +14,50 @@
   <div class="container">
     <div class="header">
       <div class="logo">
-        <img src="svg/swopme.svg" alt="swopme" class="logo1">
-        <img src="svg/me.svg" alt="swopme" class="logo2">
+        <img src="svg/swopme.svg" alt="swopme" class="logo1 swo">
+        <img src="svg/me.svg" alt="swopme" class="logo2 me">
       </div>
       <div class="subscribe">
         <a href="#" class="button">
           <img src="svg/button.svg" width="150px" alt="">
         </a>
       </div>
+      <div class="icon">
+        <div class="burger"></div>
+      </div>
+    </div>
+    <div class="menu-mob">
+      <ul>
+        <li><a href="index.html" class="mb-mob active-m">Swopme</a></li>
+        <li><a href="index.html" class="mb-mob">Services</a></li>
+        <li><a href="index.html" class="mb-mob">Housing</a></li>
+        <li><a href="index.html" class="mb-mob">Lunches</a></li>
+        <li><a href="index.html" class="mb-mob">List</a></li>
+        <li><a href="index.html" class="mb-mob">Reports</a></li>
+        <li><a href="index.html" class="mb-mob">Faces</a></li>
+        <li><a href="index.html" class="mb-mob">T-coins</a></li>
+        <li><a href="index.html" class="mb-mob">Settings</a></li>
+      </ul>
     </div>
     <div class="menu">
       <ul>
-        <li><a href="index.html"><img src="svg/1.svg" alt="main" width="20px" height="20px"></a></li>
-        <li><a href="services.html">Services</a></li>
-        <li><a href="housing.html">Housing</a></li>
-        <li><a href="lunches.html">Lunches</a></li>
-        <li><a href="list.html">List</a></li>
-        <li><a href="reports.html">Reports</a></li>
-        <li><a href="faces.html">Faces</a></li>
-        <li><a href="t-coins.html">T-coins</a></li>
-        <li><a href="settings.html"><img src="svg/sett.svg" alt="main" width="20px" height="20px"></a></li>
+        <li><a class="mb active" href="index.html"><img id="menu-svg" src="svg/swop.svg" alt="main" width="23px" height="23px"></a></li>
+        <li><a class="mb" href="services.html">Services</a></li>
+        <li><a class="mb" href="housing.html">Housing</a></li>
+        <li><a class="mb" href="lunches.html">Lunches</a></li>
+        <li><a class="mb" href="list.html">List</a></li>
+        <li><a class="mb" href="reports.html">Reports</a></li>
+        <li><a class="mb" href="faces.html">Faces</a></li>
+        <li><a class="mb" href="t-coins.html">T-coins</a></li>
+        <li><a class="mb" href="settings.html"><img id="menu-svg" src="svg/sett.svg" alt="main" width="23px" height="23px"></a></li>
       </ul>
+    </div>
+    <div class="img-block-mobi">
+      <img src="mobile/swo-m1.png" alt="" class="info">
+      <img src="mobile/swo-m2.png" alt="" class="info">
+      <img src="mobile/swo-m3.png" alt="" class="info">
+      <img src="mobile/swo-m4.png" alt="" class="info">
+      <img src="mobile/swo-m5.png" alt="" class="info">
     </div>
     <div class="img-block">
       <img src="original-size-pic/swo-1.png" alt="" class="info">
@@ -45,15 +68,15 @@
     </div>
     <div class="menu">
       <ul>
-        <li><a href="index.html"><img src="svg/1.svg" alt="main" width="20px" height="20px"></a></li>
-        <li><a href="services.html">Services</a></li>
-        <li><a href="housing.html">Housing</a></li>
-        <li><a href="lunches.html">Lunches</a></li>
-        <li><a href="list.html">List</a></li>
-        <li><a href="reports.html">Reports</a></li>
-        <li><a href="faces.html">Faces</a></li>
-        <li><a href="t-coins.html">T-coins</a></li>
-        <li><a href="settings.html"><img src="svg/sett.svg" alt="main" width="20px" height="20px"></a></li>
+        <li><a class="mb active" href="index.html"><img id="menu-svg" src="svg/swop.svg" alt="main" width="23px" height="23px"></a></li>
+        <li><a class="mb" href="services.html">Services</a></li>
+        <li><a class="mb" href="housing.html">Housing</a></li>
+        <li><a class="mb" href="lunches.html">Lunches</a></li>
+        <li><a class="mb" href="list.html">List</a></li>
+        <li><a class="mb" href="reports.html">Reports</a></li>
+        <li><a class="mb" href="faces.html">Faces</a></li>
+        <li><a class="mb" href="t-coins.html">T-coins</a></li>
+        <li><a class="mb" href="settings.html"><img id="menu-svg" src="svg/sett.svg" alt="main" width="23px" height="23px"></a></li>
       </ul>
     </div>
     <div class="social">
@@ -70,20 +93,24 @@
         <img class="icon-soc" src="svg/twitter.svg" width="35px" alt="">
       </div>
       <div class="but youtube">
-          <img class="icon-soc" src="svg/youtube.svg" width="35px" alt="">
+        <img class="icon-soc" src="svg/youtube.svg" width="35px" alt="">
       </div>
       <div class="but mail">
-          <img class="icon-soc" src="svg/mail.svg" width="20px" alt="">
-          <p>
-            info@swopme.com
-          </p>
+        <img class="icon-soc" src="svg/mail.svg" width="20px" alt="">
+        <p>
+          info@swopme.com
+        </p>
       </div>
-      <div class="but indie"></div>
-      <div class="but add"></div>
-
-
+      <div class="but indie">
+        <img class="icon-soc" src="svg/indiegogo.svg" width="80px" alt="">
+      </div>
+      <div class="but add">
+        <img class="icon-soc" src="svg/add.svg" width="30px" alt="">
+      </div>
     </div>
   </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="js/main.js"></script>
 </body>
 
 </html>
