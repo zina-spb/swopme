@@ -20,62 +20,7 @@ body {
   margin: 0 auto;
 }
 
-/* BURGER MENU================*/
 
-.icon {
-  margin-top: 40px;
-  transform: translate(-50%, -50%);
-  width: 45px;
-  height: 80px;
-  cursor: pointer;
-}
-
-.burger {
-  border-radius: 20px;
-  width: 3em;
-  height: 0.5em;
-  background: #656565;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  /* box-shadow: 0 0px 5px rgba(0,0,0,.2); */
-  transition: 0.5s;
-}
-
-.burger:before, .burger:after {
-  content: '';
-  border-radius: 20px;
-  width: 3em;
-  height: 0.5em;
-  background: #656565;
-  position: absolute;
-  /* box-shadow: 0 0px 5px rgba(0,0,0,.2); */
-  transition: 0.5s;
-}
-
-.burger:before {
-  top: -1em;
-}
-
-.burger:after {
-  top: 1em;
-}
-
-.icon.active .burger {
-  background: rgba(0, 0, 0, 0);
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0);
-}
-
-.icon.active .burger:before {
-  top: 0;
-  transform: rotate(45deg);
-}
-
-.icon.active .burger:after {
-  top: 0;
-  transform: rotate(135deg);
-}
 
 /* DESKTOP =================== */
 
@@ -259,6 +204,66 @@ body {
 
 /* MOBILE==================== */
 
+/* BURGER MENU================*/
+
+.icon {
+  margin-top: 28px;
+  transform: translate(-50%, -50%);
+  width: 33px;
+  height: 80px;
+  cursor: pointer;
+}
+
+.burger {
+  border-radius: 20px;
+  width: 2em;
+  height: 0.2em;
+  background: #656565;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  /* box-shadow: 0 0px 5px rgba(0,0,0,.2); */
+  transition: 0.5s;
+}
+
+.burger:before, .burger:after {
+  content: '';
+  border-radius: 20px;
+  width: 2em;
+  height: 0.2em;
+  background: #656565;
+  position: absolute;
+  /* box-shadow: 0 0px 5px rgba(0,0,0,.2); */
+  transition: 0.5s;
+}
+
+.burger:before {
+  top: -0.65em;
+}
+
+.burger:after {
+  top: 0.65em;
+}
+
+.icon.active .burger {
+  background: rgba(0, 0, 0, 0);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0);
+}
+
+.icon.active .burger:before {
+  top: 0;
+  transform: rotate(45deg);
+}
+
+.icon.active .burger:after {
+  top: 0;
+  transform: rotate(135deg);
+}
+
+/*================*/
+
+
 @media(max-width:767px) {
 
   .body {
@@ -350,13 +355,10 @@ body {
   line-height: 1;
   color: rgb(77, 77, 77);
   padding: 5px;
-
-
 }
-.active-b{
+.active-b a {
   font-weight: bold;
   color: black;
-
 }
 /* ============== */
 
