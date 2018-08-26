@@ -281,7 +281,6 @@ body {
     border-radius: 0 0 0.6em 0.6em;
     display: flex;
     justify-content: space-between;
-    margin-bottom: 20px;
   }
   .icon {
     display: block;
@@ -304,15 +303,15 @@ body {
   }
 
 .swo {padding-top: 17px;}
-.me {padding-top: 34px; height: 20px;}
-.ser {padding-top: 20px; height: 66px;}
-.hou {padding-top: 20px; height: 75px;}
-.lun {padding-top: 13px; height: 66px;}
-.lis {padding-top: 22px; height: 52px;}
+.me {padding-top: 17px; height: 19px;}
+.ser {padding-top: 13px; height: 31px;}
+.hou {padding-top: 13px; height: 31px;}
+.lun {padding-top: 13px; height: 31px;}
+.lis {padding-top: 22px; height: 25px;}
 .rep {padding-top: 12px; height: 32px;}
-.fac {padding-top: 16px; height: 58px;}
-.tco {padding-top: 18px; height: 67px;}
-.set {padding-top: 20px; height: 74px;}
+.fac {padding-top: 16px; height: 32px;}
+.tco {padding-top: 15px; height: 30px;}
+.set {padding-top: 15px; height: 35px;}
 
 .menu {
   display: none;
@@ -326,6 +325,7 @@ body {
   border-radius: 0.6em;
   list-style-type: none;
   transition: 0.7s;
+  margin-top: 20px;
 
 }
 
