@@ -334,9 +334,6 @@ body {
   display: flex;
 }
 
-
-/* ============================== */
-
 .menu-list{
  margin-left: 15px;
  margin-top: 7px;
@@ -359,17 +356,19 @@ body {
   font-weight: bold;
   color: black;
 }
-/* ============== */
-
-
-
 
 .subscribe {
   display: none;
 }
-.subscribe-m{
-  display: none;
-  padding-top: 10px;
+.subscribe-m {
+  width: 105px;
+  margin: 0 auto;
+}
+.subscribe-m img {
+  position: fixed;
+  bottom: 0px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+  border-radius: 12px 12px 0 0 ;
 }
 
 .button {
@@ -379,6 +378,9 @@ body {
 
 .img-block-mobi {
   display: block;
+}
+.info:last-child {
+  padding-bottom: 50px;
 }
 
 .img-block {
