@@ -304,14 +304,14 @@ body {
 
 .swo {padding-top: 17px;}
 .me {padding-top: 17px; height: 19px;}
-.ser {padding-top: 13px; height: 31px;}
-.hou {padding-top: 13px; height: 31px;}
-.lun {padding-top: 13px; height: 31px;}
-.lis {padding-top: 22px; height: 25px;}
+.ser {padding-top: 12px; height: 31px;}
+.hou {padding-top: 12px; height: 35px;}
+.lun {padding-top: 9px; height: 31px;}
+.lis {padding-top: 10px; height: 26px;}
 .rep {padding-top: 12px; height: 32px;}
-.fac {padding-top: 16px; height: 32px;}
-.tco {padding-top: 15px; height: 30px;}
-.set {padding-top: 15px; height: 35px;}
+.fac {padding-top: 8px; height: 29px;}
+.tco {padding-top: 11px; height: 32px;}
+.set {padding-top: 12px; height: 36px;}
 
 .menu {
   display: none;
